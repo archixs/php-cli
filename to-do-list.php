@@ -1,9 +1,12 @@
 <?php
 
-//$stackList = ["first task", "second task"];
-//function showAllTasks($inputTasks) {
-//    foreach($inputTasks)
-//}
+$stackList = ["first task", "second task"];
+
+function showAllTasks($inputTasks) {
+    foreach($inputTasks as $task) {
+      echo $task . "\n"
+    }
+}
 
 $name = readline("Ievadiet vardu!\n");
 echo "Your name is $name";
